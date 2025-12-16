@@ -3,42 +3,36 @@
     "id": 1,
     "name": "Oil Bath Type Air Cleaner",
     "description": "Heavy-duty air filtration system designed for superior engine protection in commercial vehicles. Ensures optimal air quality for enhanced engine performance and longevity.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Oil+Bath+Air+Cleaner"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.30.53_PM_amxlpv.png"
   },
   {
     "id": 2,
-    "name": "Air Cleaner Housing",
+    "name": "Air Assembly Cleaner",
     "description": "Robust housing units ensuring optimal airflow and long filter life. Built with durable materials to withstand harsh operating conditions.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Cleaner+Housing"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.23_PM_bcgpfp.png"
   },
   {
     "id": 3,
     "name": "Air Filters",
     "description": "High-performance filters that protect engines from dust and contaminants. Designed for maximum filtration efficiency and extended service life.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Filters"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.42_PM_weleyi.png"
   },
   {
     "id": 4,
     "name": "Air Pipes",
     "description": "Flexible and durable air pipes for efficient air intake systems. Engineered for optimal airflow and resistance to wear and tear.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Pipes"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.34_PM_wirbhx.png"
   },
   {
     "id": 5,
     "name": "Rubber Mountings",
     "description": "Precision-engineered mountings to reduce vibration and enhance vehicle stability. Manufactured with high-quality rubber for long-lasting performance.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Rubber+Mountings"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.32.07_PM_kbxk9n.png"
   },
   {
     "id": 6,
     "name": "Side-View Mirrors",
     "description": "Clear-vision, durable mirrors designed for safety and long-term use. Available for various commercial vehicle models.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Side+View+Mirrors"
-  },
-  {
-    "id": 7,
-    "name": "MTR Grip Products",
-    "description": "Industrial-grade grip and rubber solutions extending beyond automobiles to agriculture and construction. Versatile applications for multiple industries.",
-    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=MTR+Grip+Products"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765874169/Screenshot_2025-12-16_at_1.35.55_PM_zxukhp.png"
   }
 ]
