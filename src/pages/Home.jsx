@@ -28,13 +28,13 @@ function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4 animate-fade-up animation-delay-400 animate-stagger">
             <a
               href="/products"
-              className="bg-gradient-to-r from-primary to-accent text-secondary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:from-accent hover:to-primary transition-all duration-300 md:hover:scale-105 active:scale-[0.98] shadow-lg shadow-primary/25"
+              className="bg-secondary border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-primary hover:text-secondary transition-all duration-300 md:hover:scale-105 active:scale-[0.98] shadow-lg shadow-primary/25"
             >
               View Products
             </a>
             <a
               href="/contact"
-              className="border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-primary hover:text-secondary transition-all duration-300 md:hover:scale-105 active:scale-[0.98]"
+              className="bg-secondary border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-primary hover:text-secondary transition-all duration-300 md:hover:scale-105 active:scale-[0.98]"
             >
               Get a Quote
             </a>
