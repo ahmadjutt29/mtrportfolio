@@ -17,8 +17,14 @@ function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-xl sm:text-2xl font-bold text-primary">
-            M.T.R Auto Parts
+          <Link to="/" className="flex items-center text-xl sm:text-2xl font-bold text-primary transition duration-300 hover:scale-105">
+            <img 
+              src="https://res.cloudinary.com/dfifagzl1/image/upload/v1765871248/Adobe_Express_-_file_sq39ja.png" 
+              alt="MTR Auto Parts Logo" 
+              className="h-10 w-auto mr-2"
+            />
+            <span className="hidden sm:inline">M.T.R Auto Parts</span>
+            <span className="sm:hidden">M.T.R</span>
           </Link>
 
           {/* Desktop Navigation */}

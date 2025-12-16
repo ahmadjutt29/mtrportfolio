@@ -13,6 +13,12 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent"></div>
         
         <div className="container mx-auto text-center relative z-10">
+          {/* Hero Logo */}
+          <img 
+            src="https://res.cloudinary.com/dfifagzl1/image/upload/v1765871248/Adobe_Express_-_file_sq39ja.png" 
+            alt="MTR Auto Parts Logo" 
+            className="h-20 sm:h-24 md:h-28 w-auto mx-auto mb-4 sm:mb-6 animate-bounce transition duration-300 hover:scale-105"
+          />
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary mb-4 sm:mb-6 animate-fade-up will-change-transform">
             M.T.R Auto Parts
           </h1>

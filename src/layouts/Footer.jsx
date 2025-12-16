@@ -10,10 +10,17 @@ function Footer() {
     <footer className="bg-dark text-primary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          {/* Copyright */}
-          <p className="text-white text-sm sm:text-base text-center md:text-left">
-            © 2025 M.T.R Auto Parts. All rights reserved.
-          </p>
+          {/* Logo and Copyright */}
+          <div className="flex items-center">
+            <img 
+              src="https://res.cloudinary.com/dfifagzl1/image/upload/v1765871248/Adobe_Express_-_file_sq39ja.png" 
+              alt="MTR Auto Parts Logo" 
+              className="h-6 w-auto mr-2 transition duration-300 hover:scale-105"
+            />
+            <p className="text-white text-sm sm:text-base">
+              © 2025 <span className="text-primary font-bold">M.T.R Auto Parts</span>. All rights reserved.
+            </p>
+          </div>
 
           {/* Social Links */}
           <div className="flex space-x-4 sm:space-x-6">
