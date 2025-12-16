@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Oil Bath Type Air Cleaner",
+    "description": "Heavy-duty air filtration system designed for superior engine protection in commercial vehicles. Ensures optimal air quality for enhanced engine performance and longevity.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Oil+Bath+Air+Cleaner"
+  },
+  {
+    "id": 2,
+    "name": "Air Cleaner Housing",
+    "description": "Robust housing units ensuring optimal airflow and long filter life. Built with durable materials to withstand harsh operating conditions.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Cleaner+Housing"
+  },
+  {
+    "id": 3,
+    "name": "Air Filters",
+    "description": "High-performance filters that protect engines from dust and contaminants. Designed for maximum filtration efficiency and extended service life.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Filters"
+  },
+  {
+    "id": 4,
+    "name": "Air Pipes",
+    "description": "Flexible and durable air pipes for efficient air intake systems. Engineered for optimal airflow and resistance to wear and tear.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Air+Pipes"
+  },
+  {
+    "id": 5,
+    "name": "Rubber Mountings",
+    "description": "Precision-engineered mountings to reduce vibration and enhance vehicle stability. Manufactured with high-quality rubber for long-lasting performance.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Rubber+Mountings"
+  },
+  {
+    "id": 6,
+    "name": "Side-View Mirrors",
+    "description": "Clear-vision, durable mirrors designed for safety and long-term use. Available for various commercial vehicle models.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=Side+View+Mirrors"
+  },
+  {
+    "id": 7,
+    "name": "MTR Grip Products",
+    "description": "Industrial-grade grip and rubber solutions extending beyond automobiles to agriculture and construction. Versatile applications for multiple industries.",
+    "imageUrl": "https://via.placeholder.com/400x300/1A1A1A/FFD700?text=MTR+Grip+Products"
+  }
+]
