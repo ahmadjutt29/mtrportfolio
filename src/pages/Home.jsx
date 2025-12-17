@@ -22,7 +22,7 @@ function Home() {
             className="h-20 sm:h-24 md:h-28 w-auto mx-auto mb-4 sm:mb-6 animate-bounce transition duration-300 hover:scale-105"
           />
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary mb-4 sm:mb-6 animate-fade-up will-change-transform">
-            M.T.R Auto Parts
+            M.T.R COMPANY
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-6 sm:mb-8 max-w-3xl mx-auto px-4 animate-fade-up animation-delay-200 animate-stagger">
             Leading manufacturer and supplier of high-quality automotive parts — delivering reliable, durable, and performance-driven components since 1980.
