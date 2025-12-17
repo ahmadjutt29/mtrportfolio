@@ -23,7 +23,7 @@ function Navbar() {
               alt="MTR Auto Parts Logo" 
               className="h-10 w-auto mr-2"
             />
-            <span className="hidden sm:inline">M.T.R Auto Parts</span>
+            <span className="hidden sm:inline">M.T.R COMPANY</span>
             <span className="sm:hidden">M.T.R</span>
           </Link>
 
