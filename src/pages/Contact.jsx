@@ -217,7 +217,7 @@ function Contact() {
                 <span className="text-primary">Phone:</span> +92 337 4882250
               </p>
               <p className="text-gray-300 text-sm sm:text-base">
-                <span className="text-primary">Email:</span> support@mtrcompany.co
+                <span className="text-primary">Email:</span> Shahidabdulrehman132@gmail.com
               </p>
             </div>
             <div className="bg-dark rounded-lg p-6 sm:p-8 transition-all duration-500 md:hover:scale-105 active:scale-[0.98]">
