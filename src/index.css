@@ -1,3 +1,15 @@
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #FFD700;
+  }
+  50% {
+    box-shadow: 0 0 15px #FFD700;
+  }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
 @import "tailwindcss";
 
 @theme {
@@ -72,6 +84,25 @@
   }
 }
 
+/* Slideshow Animation for Hero Background */
+@keyframes slideshow {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  25% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.slideshow-bg {
+  animation: slideshow 20s infinite;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.slideshow-bg-0 { animation-delay: 0s; }
+.slideshow-bg-1 { animation-delay: 5s; }
+.slideshow-bg-2 { animation-delay: 10s; }
+.slideshow-bg-3 { animation-delay: 15s; }
+
 /* Animation delay utilities */
 .animation-delay-100 { animation-delay: 100ms; }
 .animation-delay-200 { animation-delay: 200ms; }
@@ -114,4 +145,11 @@ button {
   @apply bg-primary text-secondary px-4 py-2 rounded hover:bg-accent transition duration-300;
   cursor: pointer;
   font-family: inherit;
+}
+
+@media (min-width: 768px) {
+  .hero-slideshow-height { height: 70vh; }
+}
+@media (max-width: 767px) {
+  .hero-slideshow-height { height: 50vh; }
 }

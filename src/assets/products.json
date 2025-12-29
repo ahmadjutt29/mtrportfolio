@@ -3,36 +3,108 @@
     "id": 1,
     "name": "Oil Bath Type Air Cleaner",
     "description": "Heavy-duty air filtration system designed for superior engine protection in commercial vehicles. Ensures optimal air quality for enhanced engine performance and longevity.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.30.53_PM_amxlpv.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.30.53_PM_amxlpv.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Oil Bath 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988971/oil_bath_17_xvmyyt.jpg"},
+      {"id": "sub2", "name": "Oil Bath 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988969/oil_bath_16_u5zqtk.jpg"},
+      {"id": "sub3", "name": "Oil Bath 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988965/oil_bath_15_bh7sw6.jpg"},
+      {"id": "sub4", "name": "Oil Bath 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988964/oil_bath_11_uukajd.jpg"},
+      {"id": "sub5", "name": "Oil Bath 5", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988963/oil_bath_10.5_ykf4o1.jpg"},
+      {"id": "sub6", "name": "Oil Bath 6", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988960/oil_bath_2_rhygtq.jpg"},
+      {"id": "sub7", "name": "Oil Bath 7", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988957/oil_bath_13_fzgjwm.png"},
+      {"id": "sub8", "name": "Oil Bath 8", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988957/oil_bath_12_qpxjtx.png"},
+      {"id": "sub9", "name": "Oil Bath 9", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988956/oil_bath_9_vm4cj6.jpg"},
+      {"id": "sub10", "name": "Oil Bath 10", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988956/oil_bath_8_ahpwgp.png"},
+      {"id": "sub11", "name": "Oil Bath 11", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988956/oil_bath_7_sr0lta.png"},
+      {"id": "sub12", "name": "Oil Bath 12", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988956/oil_bath_3_usj0np.png"},
+      {"id": "sub13", "name": "Oil Bath 13", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988955/oil_bath_3.5_sfa3xp.png"},
+      {"id": "sub14", "name": "Oil Bath 14", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988955/oil_bath_1_qd1ryv.png"},
+      {"id": "sub15", "name": "Promo Oil Bath", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988968/PROMO_PICTURE_OIL_BATH_nuyryh.jpg"}
+    ]
   },
   {
     "id": 2,
     "name": "Air Assembly Cleaner",
     "description": "Robust housing units ensuring optimal airflow and long filter life. Built with durable materials to withstand harsh operating conditions.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.23_PM_bcgpfp.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.23_PM_bcgpfp.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Air Assembly 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988967/AIR_ASSEMBLY_1_ac331l.jpg"},
+      {"id": "sub2", "name": "Air Assembly 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988954/AIR_ASSEMBLY_7_hygpfw.png"},
+      {"id": "sub3", "name": "Air Assembly 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988951/AIR_ASSEMBLY_6_cubwzk.png"},
+      {"id": "sub4", "name": "Air Assembly 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988951/AIR_ASSEMBLY_8_hpiyc0.png"},
+      {"id": "sub5", "name": "Air Assembly 5", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988946/AIR_ASSEMBLY_5_dx89yf.png"},
+      {"id": "sub6", "name": "Air Assembly 6", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988945/AIR_ASSEMBLY_2.5_deeeth.png"},
+      {"id": "sub7", "name": "Air Assembly 7", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988945/AIR_ASSEMBLY_2_qofbgx.png"},
+      {"id": "sub8", "name": "Air Assembly 8", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988944/Air_assembly_3_rqn3ed.png"},
+      {"id": "sub9", "name": "Air Assembly 9", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988944/AIR_ASSEMBLY_4_ti30ni.png"}
+    ]
   },
   {
     "id": 3,
     "name": "Air Filters",
     "description": "High-performance filters that protect engines from dust and contaminants. Designed for maximum filtration efficiency and extended service life.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.42_PM_weleyi.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.42_PM_weleyi.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Filter 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988970/FILTER_5_inqdnn.jpg"},
+      {"id": "sub2", "name": "Filter 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988954/FILTER_12_uffuek.png"},
+      {"id": "sub3", "name": "Filter 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988953/FILTER_11_sjaq8c.jpg"},
+      {"id": "sub4", "name": "Filter 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988953/FILTER_12_deyno3.jpg"},
+      {"id": "sub5", "name": "Filter 5", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988953/FILTER_10_p3iwqf.jpg"},
+      {"id": "sub6", "name": "Filter 6", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988952/FILTER_9_qlk5e9.jpg"},
+      {"id": "sub7", "name": "Filter 7", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988951/FILTER_8_we6ceg.jpg"},
+      {"id": "sub8", "name": "Filter 8", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988951/FILTER_7_q1xcmi.jpg"},
+      {"id": "sub9", "name": "Filter 9", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988950/FILTER_6_s7slou.jpg"},
+      {"id": "sub10", "name": "Filter 10", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988950/FILTER_3_xdyher.png"},
+      {"id": "sub11", "name": "Filter 11", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988955/FILTER_1_m39vkg.webp"},
+      {"id": "sub12", "name": "Filter 12", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988955/FILTER_rrqvi4.webp"},
+      {"id": "sub13", "name": "Filter 13", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988954/FILTER_13_cwxzy1.png"},
+      {"id": "sub14", "name": "Filter 14", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988949/FILTER_1_ysgmoq.jpg"},
+      {"id": "sub15", "name": "Filter 15", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988947/FILTER_2_z5yaco.jpg"}
+    ]
   },
   {
     "id": 4,
     "name": "Air Pipes",
     "description": "Flexible and durable air pipes for efficient air intake systems. Engineered for optimal airflow and resistance to wear and tear.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.34_PM_wirbhx.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.31.34_PM_wirbhx.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Pipe 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988974/PIPE_1_nilwwy.jpg"},
+      {"id": "sub2", "name": "Pipe 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988967/PIPE_3_j43feq.jpg"},
+      {"id": "sub3", "name": "Pipe 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988967/PIPE_2_bxkqek.webp"},
+      {"id": "sub4", "name": "Pipe 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988966/PIPE_2_m5wlgd.jpg"}
+    ]
   },
   {
     "id": 5,
     "name": "Rubber Mountings",
     "description": "Precision-engineered mountings to reduce vibration and enhance vehicle stability. Manufactured with high-quality rubber for long-lasting performance.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.32.07_PM_kbxk9n.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765873965/Screenshot_2025-12-16_at_1.32.07_PM_kbxk9n.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Engine Mount 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988955/ENGINE_MOUNT_5_ztehyy.png"},
+      {"id": "sub2", "name": "Engine Mount 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988954/ENGINE_MOUNT_6_ika3ec.png"},
+      {"id": "sub3", "name": "Engine Mount 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988953/ENGINE_MOUNT_3_wtdvwt.jpg"},
+      {"id": "sub4", "name": "Engine Mount 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988952/ENGINE_MOUNT_9_f01pmq.jpg"},
+      {"id": "sub5", "name": "Engine Mount 5", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988952/ENGINE_MOUNT_1_moklqy.jpg"},
+      {"id": "sub6", "name": "Engine Mount 6", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988952/ENGINE_MOUNT_4_bldndw.png"},
+      {"id": "sub7", "name": "Engine Mount 7", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988949/ENGINE_MOUNT_8_spcueb.jpg"},
+      {"id": "sub8", "name": "Engine Mount 8", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988944/ENGINE_MOUNT_7_mlfgna.png"},
+      {"id": "sub9", "name": "Engine Mount 9", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988951/engine_mount_2_gihqx0.jpg"}
+    ]
   },
   {
     "id": 6,
     "name": "Side-View Mirrors",
     "description": "Clear-vision, durable mirrors designed for safety and long-term use. Available for various commercial vehicle models.",
-    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765874169/Screenshot_2025-12-16_at_1.35.55_PM_zxukhp.png"
+    "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1765874169/Screenshot_2025-12-16_at_1.35.55_PM_zxukhp.png",
+    "subProducts": [
+      {"id": "sub1", "name": "Side Mirror 1", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988968/side_mirror_1_aeou4k.png"},
+      {"id": "sub2", "name": "Side Mirror 2", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988969/side_mirror_2_ajvbyj.png"},
+      {"id": "sub3", "name": "Side Mirror 3", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988969/side_mirror_3_q356lq.png"},
+      {"id": "sub4", "name": "Side Mirror 4", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988970/side_mirror_4_uqwkta.png"},
+      {"id": "sub5", "name": "Side Mirror 5", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988970/side_mirror_5_sumflx.png"},
+      {"id": "sub6", "name": "Side Mirror 6", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988970/SIDE_MIRROR_6_ohky2v.png"},
+      {"id": "sub7", "name": "Side Mirror 7", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988970/side_mirror_7_uki5lv.png"},
+      {"id": "sub8", "name": "Side Mirror 8", "description": "Details", "imageUrl": "https://res.cloudinary.com/dfifagzl1/image/upload/v1766988971/SIDE_MIRROR_8_olyhsi.jpg"}
+    ]
   }
 ]

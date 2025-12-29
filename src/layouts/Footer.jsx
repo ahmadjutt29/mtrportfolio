@@ -6,7 +6,7 @@ function Footer() {
   ]
 
   return (
-    <footer className="bg-dark text-primary">
+    <footer className="bg-dark text-primary shadow-lg border-t-2 border-primary">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Logo and Copyright */}

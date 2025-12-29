@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -30,13 +30,17 @@ function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-6 lg:space-x-8">
             {navLinks.map((link) => (
-              <Link
+              <NavLink
                 key={link.name}
                 to={link.href}
-                className="text-white hover:text-primary transition-colors duration-200 text-sm lg:text-base"
+                className={({ isActive }) =>
+                  `relative px-2 py-1 text-white text-sm lg:text-base font-semibold transition-colors duration-200 hover:text-primary hover:shadow-[0_0_10px_#FFD700] hover:scale-105 transition-transform duration-200
+                  ${isActive ? 'shadow-[0_0_5px_#FFD700] text-primary after:content-[""] after:bg-primary after:h-1 after:w-full after:absolute after:bottom-0 after:left-0 after:rounded after:block' : ''}`
+                }
+                style={{ transition: 'box-shadow 0.3s, color 0.2s, transform 0.2s' }}
               >
                 {link.name}
-              </Link>
+              </NavLink>
             ))}
           </div>
 
@@ -72,22 +76,27 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Mobile Navigation with smooth transition */}
+        {/* Mobile Navigation with slide-in animation */}
         <div 
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMenuOpen ? 'max-h-64 opacity-100 pb-4' : 'max-h-0 opacity-0'
-          }`}
+          className={`md:hidden fixed top-16 left-0 w-full bg-secondary z-40 transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+          style={{ boxShadow: isMenuOpen ? '0 4px 24px 0 #FFD70033' : 'none' }}
         >
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.href}
-              className="block py-3 px-2 text-white hover:text-primary hover:bg-dark/50 rounded-md transition-all duration-200"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {link.name}
-            </Link>
-          ))}
+          <div className="flex flex-col space-y-2 py-4 px-4">
+            {navLinks.map((link) => (
+              <NavLink
+                key={link.name}
+                to={link.href}
+                className={({ isActive }) =>
+                  `relative block py-3 px-2 text-white text-base font-semibold rounded-md transition-all duration-200 hover:text-primary hover:bg-dark/50 hover:shadow-[0_0_10px_#FFD700] hover:scale-105 transition-transform duration-200
+                  ${isActive ? 'shadow-[0_0_5px_#FFD700] text-primary after:content-[""] after:bg-primary after:h-1 after:w-full after:absolute after:bottom-0 after:left-0 after:rounded after:block' : ''}`
+                }
+                style={{ transition: 'box-shadow 0.3s, color 0.2s, transform 0.2s' }}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {link.name}
+              </NavLink>
+            ))}
+          </div>
         </div>
       </div>
     </nav>
