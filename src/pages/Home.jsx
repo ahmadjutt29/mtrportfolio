@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   const [bgImages, setBgImages] = useState([
-    'https://res.cloudinary.com/dfifagzl1/image/upload/v1767004625/black_and_yellow_grunge_background_guomms.jpg',
     'https://res.cloudinary.com/dfifagzl1/image/upload/v1767001514/Screenshot_2025-12-29_at_2.44.42_PM_ymcinr.png',
   ]);
 
@@ -12,12 +11,10 @@ function Home() {
     function updateBgImages() {
       if (window.innerWidth < 640) {
         setBgImages([
-          'https://res.cloudinary.com/dfifagzl1/image/upload/v1767004625/black_and_yellow_grunge_background_guomms.jpg',
           'https://res.cloudinary.com/dfifagzl1/image/upload/v1767004821/Screenshot_2025-12-29_at_3.39.45_PM_yxzscy.png',
         ]);
       } else {
         setBgImages([
-          'https://res.cloudinary.com/dfifagzl1/image/upload/v1767004625/black_and_yellow_grunge_background_guomms.jpg',
           'https://res.cloudinary.com/dfifagzl1/image/upload/v1767001514/Screenshot_2025-12-29_at_2.44.42_PM_ymcinr.png',
         ]);
       }
